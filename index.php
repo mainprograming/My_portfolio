@@ -194,7 +194,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     </div>
     <div class="form" id="form">
       <h1 class="main-header">フォーム(メール)</h1>
-      <form class="form-contents" action="" method="post" novalidate>
+      <form class="form-contents" action="" method="post">
         <div class="form-content">
           <p>お名前</p>
           <input type="text" placeholder="氏名" name="name" value="<?php echo htmlspecialchars($post['name']); ?>">
