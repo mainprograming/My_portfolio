@@ -217,6 +217,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
           <p class="error_msg">※お問い合わせ内容をご記入ください</p>
         <?php endif; ?>
         <input type="submit" value="送信する" class="submit">
+        <div>※レンタルサーバーを使用していないので送れません。</div>
       </form>
     </div>
   </main>
