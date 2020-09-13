@@ -31,4 +31,8 @@ $(function () {
 		startPos = scrollPos;
 	});
 
+	//スクロールで色々出てくる//
+  ScrollReveal().reveal('.scroll', {
+     duration: '1500', reset: 'true'
+    });
 });
