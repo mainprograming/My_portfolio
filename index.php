@@ -63,7 +63,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <div class="profile" id="profile">
       <h1 class="main-header">自己紹介</h1>
       <div class="profile-contents">
-        <img src="https://github.com/mainprograming/portogolio/blob/master/%E3%83%9D%E3%83%BC%E3%83%88%E3%83%95%E3%82%A9%E3%83%AA%E3%82%AA%E7%94%BB%E5%83%8F/icon.png?raw=true">
+        <img src="https://github.com/mainprograming/My_portfolio/blob/master/%E3%83%9D%E3%83%BC%E3%83%88%E3%83%95%E3%82%A9%E3%83%AA%E3%82%AA%E7%94%BB%E5%83%8F/main-top.jpg?raw=true">
         <table>
           <tr>
             <td>Name</td>
