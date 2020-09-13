@@ -50,7 +50,7 @@ EOT;
 </head>
 <body>
     <h1>お問い合わせ内容</h1>
-    <form class="form-contents" action="" method="post" novalidate>
+    <form class="form-contents" action="" method="post">
         <div class="form-content">
           <p>お名前</p>
           <?php echo htmlspecialchars($post['name']); ?>
