@@ -70,28 +70,29 @@ header a {
 }
 
 .main-top h1 {
-  font-size: 80px;
+  font-size: 24px;
   line-height: 120px;
   color: white;
   position: absolute;
-  top: 15%;
-  left: 23%;
+  bottom: 15%;
+  left: 10%;
   text-align: center;
 }
 
 .main-top a {
-  font-size: 40px;
+  font-size: 16px;
   color: black;
   position: absolute;
-  top: 70%;
-  left: 40%;
+  bottom: 20%;
+  right: 10%;
   text-align: center;
   text-decoration: none;
   background-color: white;
-  padding: 30px 100px;
+  padding: 10px 20px;
   border-radius: 10px;
   box-shadow: 0 0 30px black;
   transition: .3s;
+  opacity: 0.4;
 }
 
 .main-top a:hover {
@@ -99,12 +100,14 @@ header a {
 }
 
 .profile {
-  padding-bottom: 30px;
+  padding: 50px 0 150px;
+  color: white;
+  background-color: black;
 }
 
 .main-header {
   text-align: center;
-  font-size: 36px;
+  font-size: 40px;
   font-family: serif;
   padding: 30px 0;
 }
@@ -115,12 +118,18 @@ header a {
   align-items: center;
 }
 
-.profile-contents img {
+.profile-contents-left {
+  text-align: center;
+  padding: 0 30px;
+}
+
+.profile-contents-left img {
   width: 160px;
   height: 160px;
   border-radius: 50%;
   margin: 0 30px;
   transition: .7s;
+  margin: 20px 0;
 }
 
 .profile-contents img:hover {
@@ -129,28 +138,55 @@ header a {
 
 .profile-contents td {
   border: 1px solid rgb(200, 200, 200);
-  padding: 10px;
+  padding: 5px;
+  font-size: 14px;
 }
 
 .skill {
-  background-color: rgb(240, 240, 240);
+  background-color: white;
+  padding: 50px 0;
+  position: relative;
 }
 
 .skill-contents {
-  display: flex;
-  justify-content: center;
   padding: 30px 0;
+  width: 70%;
+  margin: 0 auto;
 }
 
-.skill-contents img {
-  width: 160px;
-  height: 160px;
+.skill-content {
+  display: flex;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.skill-content img {
+  width: 100px;
+  height: 100px;
   margin: 0 20px;
   transition: .3s;
 }
 
-.skill-contents img:hover {
-  transform: scale(1.2 , 1.2)
+.skill-content img:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.skill-content p {
+  font-size: 26px;
+}
+
+.skill-img {
+  position: absolute;
+  right: 10%;
+  top: 33%;
+  width: 35%;
+  border-radius: 5px;
+}
+
+.service {
+  background-color: black;
+  color: white;
+  padding: 150px 0 200px;
 }
 
 .service-contents {
@@ -160,9 +196,9 @@ header a {
   padding-bottom: 30px;
 }
 
-.service-contents img {
-  width: 160px;
-  height: 160px;
+.service-content-right img {
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
   transition: .5s;
 }
@@ -177,8 +213,8 @@ header a {
 }
 
 .portfolio {
-  background-color:rgb(240, 240, 240);
-  padding-bottom: 30px;
+  background-color:white;
+  padding: 50px 0;
 }
 
 .portfolio-contents {
@@ -194,12 +230,14 @@ header a {
   line-height: 26px;
   width: 320px;
   padding: 20px 30px;
+  box-shadow: 0 0 5px black;
+  border-radius: 5px;
+  margin: 10px;
+  transition: .3s;
 }
 
-.portfolio-content:nth-of-type(1) , 
-.portfolio-content:nth-of-type(2) , 
-.portfolio-content:nth-of-type(4) {
-  border-right: 1px solid rgb(209, 209, 209);
+.portfolio-content:hover {
+  transform: scale(1.1, 1.1);
 }
 
 .portfolio-content img {
@@ -213,10 +251,6 @@ header a {
   color: black;
 }
 
-.portfolio-content a:hover {
-  text-decoration: underline;
-}
-
 .portfolio-content h2 {
   font-size: 20px;
 }
@@ -227,24 +261,29 @@ header a {
 
 .sns {
   text-align: center;
+  background-color: black;
+  color: white;
+  position: relative;
+  padding: 100px 0 0;
 }
 
 .sns-contents {
-  display: flex;
-  justify-content: center;
-  width: 90%;
+  width: 70%;
   margin: 0 auto;
 }
 
 .sns-content {
-  padding: 20px 40px;
-  width: 30%;
+  padding: 40px;
+  width: 70%;
+  display: flex;
+  align-items: center;
 }
 
 .sns-content a {
   font-size: 100px;
   text-decoration: none;
   transition: .3s;
+  width: 100px;
 }
 
 .sns-content a:hover {
@@ -252,25 +291,43 @@ header a {
 }
 
 .sns-content h2 {
-  padding: 10px 0;
+  padding-left: 30px;
   font-size: 20px;
 }
 
+.sns-img {
+  position: absolute;
+  top: 20%;
+  right: 10%;
+  width: 22%;
+  height: 10%;
+  border-radius: 5px;
+}
+
+.fa-twitter {
+  color: rgb(0, 102, 255);
+}
+
+.fa-instagram {
+  color: deeppink;
+}
+
 .topix {
-  background-color: rgb(240, 240, 240);
+  background-color: white;
   padding-bottom: 30px;
+  color: black;
+  padding: 60px 0;
 }
 
 .topix-contents {
-  display: flex;
-  justify-content: center;
   align-items: center;
 }
 
 .topix-left {
-  width: 400px;
+  width: 60%;
   text-align: center;
-  line-height: 20px;
+  margin: 30px auto;
+  line-height: 30px;
   padding: 0 20px;
 }
 
@@ -294,18 +351,6 @@ header a {
   transform: scale(1.1 , 1.1);
 }
 
-.fa-envelope {
-  color: black;
-}
-
-.fa-twitter {
-  color: rgb(0, 102, 255);
-}
-
-.fa-instagram {
-  color: deeppink;
-}
-
 footer {
   text-align: center;
   color: white;
@@ -317,3 +362,4 @@ footer {
 footer h1 {
   padding-top: 20px;
 }
+
