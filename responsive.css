@@ -1,11 +1,11 @@
 @media (max-width:500px) {
 
-  
+
   .main-header {
     font-size: 28px;
     padding: 20px 0;
   }
-  
+
   .header-contents {
     display: flex;
     justify-content: space-between;
@@ -24,14 +24,11 @@
     font-size: 20px;
     line-height: 24px;
     top: 40%;
-    left: 30%;
+    left: 20%;
   }
 
   .main-top a {
-    font-size: 13px;
-    top: 80%;
-    left: 38%;
-    padding: 10px 40px;
+    display: none;
   }
 
   .main-header {
@@ -50,10 +47,18 @@
     padding: 5px;
   }
 
+  .profile-contents-right {
+    display: none;
+  }
+
   .skill-contents img {
     width: 80px;
     height: 80px;
     margin: 0 10px;
+  }
+
+  .skill-img {
+    display: none;
   }
 
   .service-contents img {
@@ -61,7 +66,7 @@
     height: 80px;
     border-radius: 50%;
   }
-  
+
   .service-text {
     font-size: 8px;
     padding: 0 16px;
@@ -93,7 +98,7 @@
     width: 160px;
     height: 140px;
   }
-  
+
   .portfolio-text {
     padding: 10px;
   }
@@ -101,13 +106,13 @@
   .portfolio-content h2 {
     font-size: 15px;
   }
-  
+
   .portfolio-content p {
     font-size: 10px;
   }
 
-  .portfolio-content:nth-of-type(1) , 
-  .portfolio-content:nth-of-type(2) , 
+  .portfolio-content:nth-of-type(1) ,
+  .portfolio-content:nth-of-type(2) ,
   .portfolio-content:nth-of-type(4) {
     border-right: none;
   }
@@ -120,7 +125,7 @@
     text-align: center;
     padding-bottom: 30px;
   }
-  
+
   .sns-content {
     text-align: center;
     padding: 10px;
@@ -128,16 +133,20 @@
     border-bottom: 1px solid rgb(189, 189, 189);
   }
 
+  .sns-img {
+    display: none;
+  }
+
   .topix {
     background-color: rgb(240, 240, 240);
     padding-bottom: 30px;
   }
-  
+
   .topix-contents {
     display: block;
     margin: 0 auto;
   }
-  
+
   .topix-left {
     margin: 0 auto;
     width: 100%;
@@ -145,16 +154,16 @@
     line-height: 20px;
     padding: 20px;
   }
-  
+
   .topix-left p {
     font-size: 10px;
     text-align: left;
   }
-  
+
   .topix-left h2 {
     padding: 5px 0;
   }
-  
+
   .topix-photo img {
     width: 200px;
     height: 200px;
